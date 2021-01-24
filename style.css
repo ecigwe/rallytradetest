@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+}
+nav {
+  height: 5.93rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav img {
+  width: 235px;
+}
+.middle-links ul {
+  display: flex;
+  justify-content: space-between;
+}
+.middle-links ul li {
+  padding-right: 10px;
+  font-weight: 700;
+}
+.middle-links ul li a {
+  text-decoration: none;
+  color: black;
+}
+.middle-links ul li a:hover,
+.middle-links ul li a:focus,
+.middle-links ul li a:visited,
+.middle-links ul li a:active {
+  color: black;
+}
+.login a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  padding-right: 10px;
+}
+.login a:hover,
+.login a:focus,
+.login a:visited,
+.login a:active {
+  color: black;
+}
+.container {
+  width: 75rem;
+  margin: 0 auto;
+}
+.hero {
+  background-image: url("/img/herobg.png");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+.hero_form {
+  max-width: 25rem;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+input {
+  font-size: 1.1rem;
+
+  padding: 10px 10px;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+input[type="text"] {
+  width: 100%;
+}
+.hero_form_control {
+  display: flex;
+}
+.hero_form_control span {
+  width: 1.2rem;
+}
+.hero_form_check {
+  display: flex;
+  padding: 10px;
+}
+.hero_form_check input {
+  width: 3rem;
+}
+.hero_form_check span {
+  font-size: 0.8rem;
+}
+.wrapper {
+  display: flex;
+}
+.checkboxwrap {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.btn {
+  background-color: #00a651;
+  padding: 10px 15px;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+}
+.centerbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 138px;
+}
+.icon-text {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+.icon-text img {
+  width: 37px;
+  height: 44px;
+}
+.open-account {
+  background-color: #eeeeee;
+}
+.open-account-trade,
+.open-account-add {
+  padding: 20px;
+}
+.red {
+  color: red;
+  text-align: center;
+}
+.rally {
+  text-align: center;
+  padding: 20px;
+  max-width: 70%;
+  margin: 0 auto;
+}
+footer {
+  text-align: center;
+}
+
+@media only screen and (min-width: 601px) {
+  .open-account {
+    display: flex;
+  }
+  .open-account-trade,
+  .open-account-add {
+    width: 50%;
+  }
+}
